@@ -1824,6 +1824,20 @@ input, select, textarea {
 				margin: 0 auto;
 				width: auto;
 			}
+			.profile-picture {
+				width: 60px; /* Ajusta el ancho según tus preferencias */
+				height: 60px; /* Ajusta la altura según tus preferencias */
+				border-radius: 50%; /* Hace que la imagen sea circular */
+				object-fit: cover; /* Mantiene la proporción y recorta la imagen si es necesario */
+				border: 2px solid #fff; /* Añade un borde blanco opcional */
+				box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Añade una sombra suave */
+				padding: 0.2rem;
+			  }
+			  
+			  /* Estilo para cambiar el cursor al pasar sobre la imagen */
+			  .profile-picture:hover {
+				cursor: pointer;
+			  }
 
 /* List */
 
@@ -1918,7 +1932,7 @@ input, select, textarea {
 	ul.icons {
 		position: relative;
 		background: rgba(128, 128, 128, 0.05);
-		border-radius: 4em;
+		border-radius: 2rem;
 		display: inline-block;
 		padding: 0.35em 0.75em 0.35em 0.75em;
 		font-size: 1.25em;
