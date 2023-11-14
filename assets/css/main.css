@@ -1935,8 +1935,19 @@ footer {
 }
 
 .image.left {
-	float: left;
-	margin: 0 2em 2em 0;
+	width: 60px;
+	/* Ajusta el ancho según tus preferencias */
+	height: 60px;
+	/* Ajusta la altura según tus preferencias */
+	border-radius: 50%;
+	/* Hace que la imagen sea circular */
+	object-fit: cover;
+	/* Mantiene la proporción y recorta la imagen si es necesario */
+	border: 2px solid #fff;
+	/* Añade un borde blanco opcional */
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	/* Añade una sombra suave */
+	padding: 0.2rem;;
 }
 
 .image.centered {
